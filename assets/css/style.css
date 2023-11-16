@@ -26,8 +26,8 @@ header {
 }
 
 .logo {
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
 }
 
 #icon {
@@ -118,16 +118,17 @@ header {
   display: grid;
   justify-content: center;
   text-align: center;
+  margin-top: 30px;
 }
 
-.slogan h1{
+.slogan h1 {
   color: #ffebd6;
   font-weight: 900;
   font-size: 128px;
   margin-top: 35px;
 }
 
-.slogan span{
+.slogan span {
   color: #ff8e38;
   font-weight: 900;
 }
@@ -148,7 +149,7 @@ header {
   gap: 100px;
 }
 
-.btn1{
+.btn1 {
   justify-self: center;
   padding: 10px;
   color: #ffebd6;
@@ -160,7 +161,7 @@ header {
   text-align: center;
 }
 
-.btn2{
+.btn2 {
   justify-self: center;
   padding: 10px;
   color: #ff8e38;
@@ -174,7 +175,19 @@ header {
   
 }
 
-.slogan a{
+.slogan a {
   align-items: center;
   
+}
+
+.text-bg {
+  width: 100%;
+  margin-top: 100px;
+  position: absolute;
+  white-space: nowrap; 
+  overflow: visible; 
+}
+
+.text-bg h1 {
+  font-size: 300px;
 }
